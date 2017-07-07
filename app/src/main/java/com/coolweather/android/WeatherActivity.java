@@ -34,6 +34,11 @@ import okhttp3.Response;
 public class WeatherActivity extends AppCompatActivity {
 
     public SwipeRefreshLayout swipeRefresh;
+
+    public void setmWeatherId(String mWeatherId) {
+        this.mWeatherId = mWeatherId;
+    }
+
     private String mWeatherId;
 
     private ScrollView weatherLayout ;
